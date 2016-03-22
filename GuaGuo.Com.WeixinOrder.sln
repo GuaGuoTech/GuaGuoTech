@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaGuo.Com.WeixinOrderService", "GuaGuo.Com.WeixinOrder\GuaGuo.Com.WeixinOrderService.csproj", "{4D2E4AE5-1EFB-49EC-AB63-991F9EDC769F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaGuo.Com.WeixinOrderProvider", "GuaGuo.Com.WeixinOrderProvider\GuaGuo.Com.WeixinOrderProvider.csproj", "{BF4E5B6A-2413-457F-B367-003B9B395DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaGuo.Com.WebApp", "GuaGuo.Com.WebApp\GuaGuo.Com.WebApp.csproj", "{078E0AE7-F197-4FEA-9F32-9C461C76E506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaGuo.Com.GuaGuoController", "GuaGuo.Com.GuaGuoController\GuaGuo.Com.GuaGuoController.csproj", "{596B6E22-9F44-4BAB-A938-7A29139FABA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaGuo.Com.WeixinModels", "GuaGuo.Com.WeixinModel\GuaGuo.Com.WeixinModels.csproj", "{497D505A-CE52-4034-A6C0-B68D4EA83E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D2E4AE5-1EFB-49EC-AB63-991F9EDC769F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2E4AE5-1EFB-49EC-AB63-991F9EDC769F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2E4AE5-1EFB-49EC-AB63-991F9EDC769F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2E4AE5-1EFB-49EC-AB63-991F9EDC769F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4E5B6A-2413-457F-B367-003B9B395DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4E5B6A-2413-457F-B367-003B9B395DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4E5B6A-2413-457F-B367-003B9B395DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4E5B6A-2413-457F-B367-003B9B395DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078E0AE7-F197-4FEA-9F32-9C461C76E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078E0AE7-F197-4FEA-9F32-9C461C76E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078E0AE7-F197-4FEA-9F32-9C461C76E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078E0AE7-F197-4FEA-9F32-9C461C76E506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596B6E22-9F44-4BAB-A938-7A29139FABA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596B6E22-9F44-4BAB-A938-7A29139FABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596B6E22-9F44-4BAB-A938-7A29139FABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596B6E22-9F44-4BAB-A938-7A29139FABA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497D505A-CE52-4034-A6C0-B68D4EA83E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497D505A-CE52-4034-A6C0-B68D4EA83E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497D505A-CE52-4034-A6C0-B68D4EA83E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497D505A-CE52-4034-A6C0-B68D4EA83E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
