@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuaGuo.Com.WeixinOrder.Guests;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,8 @@ namespace GuaGuo.Com.GuaGuoController.Controllers.Home
 
         public ActionResult Index()
         {
+
+            GuestService.AddGuest();
             return View();
         }
 

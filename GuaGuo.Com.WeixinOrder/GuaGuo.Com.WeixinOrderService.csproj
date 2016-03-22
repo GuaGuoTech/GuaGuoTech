@@ -60,6 +60,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Guests\GuestService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +71,17 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GuaGuo.Com.WeixinModel\GuaGuo.Com.WeixinModels.csproj">
+      <Project>{497d505a-ce52-4034-a6c0-b68d4ea83e6d}</Project>
+      <Name>GuaGuo.Com.WeixinModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GuaGuo.Com.WeixinOrderProvider\GuaGuo.Com.WeixinOrderProvider.csproj">
+      <Project>{bf4e5b6a-2413-457f-b367-003b9b395dc5}</Project>
+      <Name>GuaGuo.Com.WeixinOrderProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
