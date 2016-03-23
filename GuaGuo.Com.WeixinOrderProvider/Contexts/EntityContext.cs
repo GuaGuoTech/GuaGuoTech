@@ -12,11 +12,9 @@ namespace GuaGuo.Com.WeixinOrderProvider.Contexts
     public class EntityContext:DbContext
     {
         public EntityContext() : base("name=EntityContext") { }
-
         public DbSet<Guest> GuestS { get; set; }
         public DbSet<Order> OrderS { get; set; }
         public DbSet<Waiter> WaiterS { get; set; }
-
         public DbSet<Worker> WorkerS { get; set; }
     }
 }

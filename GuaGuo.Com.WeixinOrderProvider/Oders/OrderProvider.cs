@@ -12,6 +12,7 @@ namespace GuaGuo.Com.WeixinOrderProvider.Oders
         public static void AddOrder(Order order){
         using (EntityContext entityContext=new EntityContext())
         {
+
             entityContext.OrderS.Add(order);
             entityContext.SaveChanges();
 

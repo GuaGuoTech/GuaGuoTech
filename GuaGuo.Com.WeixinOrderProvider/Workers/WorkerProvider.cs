@@ -16,6 +16,7 @@ namespace GuaGuo.Com.WeixinOrderProvider.Workers
                 entityContext.WorkerS.Add(worker);
                 entityContext.SaveChanges();
 
+
             }
 
         }      

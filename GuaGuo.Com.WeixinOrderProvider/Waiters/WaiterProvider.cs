@@ -12,6 +12,7 @@ namespace GuaGuo.Com.WeixinOrderProvider.Waiters
     {
         using (EntityContext entityContext = new EntityContext()) 
         {
+
             entityContext.WaiterS.Add(waiter);
             entityContext.SaveChanges();
         }
