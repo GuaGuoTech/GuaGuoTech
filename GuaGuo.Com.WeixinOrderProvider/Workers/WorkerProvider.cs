@@ -5,20 +5,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace GuaGuo.Com.WeixinOrderProvider.Guests
+namespace GuaGuo.Com.WeixinOrderProvider.Workers
 {
-    public static class GuestProvider
+    public class WorkerProvider
     {
-        public static void AddGuest(Guest guest)
+        public static void AddWorker(Worker worker)
         {
             using (EntityContext entityContext = new EntityContext())
             {
-   
-                entityContext.GuestS.Add(guest);
+                entityContext.WorkerS.Add(worker);
                 entityContext.SaveChanges();
-            }
-        
 
-        }
+            }
+
+        }      
     }
 }
