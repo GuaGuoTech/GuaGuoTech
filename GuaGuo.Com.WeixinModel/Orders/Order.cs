@@ -7,7 +7,7 @@ using System.Web;
 
 namespace GuaGuo.Com.WeixinModel.Orders
 {
-    [Table("weixinorder_order_info")]
+    [Table("order_info")]
     public class Order
     {    /// <summary>
         /// 设置主键Id

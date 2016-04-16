@@ -1,60 +1,82 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
 namespace GuaGuo.Com.WeixinModels
-{
-    public class Guest
+{  /// <summary>
+    /// 用户信息表
+    /// </summary>
+    [Table("guest_info")]
+    public class User
     {
-        private int id;
-        private string name;
-        private string weixin_num;
-        private int age;
-        private int sex;
-        private string phone_num;
-        private int star;
+        /// <summary>
+        /// 设置主键ID
+        /// </summary>
+        [Key]
+        [Column("id", TypeName = "BIGINT")]
+        public long Id { get; set; }
 
-        public int Star
-        {
-            get { return star; }
-            set { star = value; }
-        }
+        /// <summary>
+        /// 设置Id的级别
+        /// </summary>
+        [Column("id_class", TypeName = "INT")]
+        public int IdClass { get; set; }
 
-        public string Phone_num
-        {
-            get { return phone_num; }
-            set { phone_num = value; }
-        }
+        /// <summary>
+        /// 姓名
+        /// </summary>
+        [Column("name", TypeName = "VARCHAR")]
+        [Required]
+        public string Name { get; set; }
 
-        public int Sex
-        {
-            get { return sex; }
-            set { sex = value; }
-        }
+        /// <summary>
+        /// 设置当前对象生日日期
+        /// </summary>
+        [Column("birth_date", TypeName = "DATE")]
+        public DateTime BirthDate { get; set; }
 
-        public int Age
-        {
-            get { return age; }
-            set { age = value; }
-        }
+        /// <summary>
+        /// 设置当前对象注册日期
+        /// </summary>
+        [Column("login_date", TypeName = "DATE")]
+        public DateTime LoginDate { get; set; }
 
-        public string Weixin_num
-        {
-            get { return weixin_num; }
-            set { weixin_num = value; }
-        }
+        /// <summary>
+        /// 当前对象联系电话
+        /// </summary>
+        [Column("phone_num", TypeName = "VARCHAR")]
+        public string PhoneNum { get; set; }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+        /// <summary>
+        /// 当前对象联系微信
+        /// </summary>
+        [Column("weixin_num", TypeName = "VARCHAR")]
+        [Required]
+        public string WeixinNum { get; set; }
 
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        /// <summary>
+        /// 地址
+        /// </summary>
+        [Column("address", TypeName = "VARCHAR")]
+        public string Address { get; set; }
+
+
+        /// <summary>
+        /// 当前对象性别 0女1男
+        /// </summary>
+        [Column("sex", TypeName = "INT")]
+        public int Sex { get; set; }
+
+        /// <summary>
+        /// 当前对象星级
+        /// </summary>
+        [Column("star", TypeName = "INT")]
+        public int Star { get; set; }
+
+        
     }
+
 }

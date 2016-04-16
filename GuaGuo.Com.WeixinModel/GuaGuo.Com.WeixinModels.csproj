@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Guests\Guest.cs" />
+    <Compile Include="Lists\List.cs" />
+    <Compile Include="Lists\SpecialList.cs" />
     <Compile Include="Orders\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Waiters\Waiter.cs" />
