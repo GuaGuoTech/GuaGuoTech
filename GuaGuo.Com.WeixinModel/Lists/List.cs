@@ -71,7 +71,7 @@ namespace GuaGuo.Com.WeixinModel.List
         public string Pic { get; set; }
 
         /// <summary>
-        /// 当前对象的推荐等级 0无1有
+        /// 当前对象的推荐等级  0无1有
         /// </summary>
         [Column("advertise", TypeName = "INT")]
         public int Advertise { get; set; }

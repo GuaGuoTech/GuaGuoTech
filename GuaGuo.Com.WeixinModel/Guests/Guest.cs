@@ -10,7 +10,7 @@ namespace GuaGuo.Com.WeixinModels
     /// 用户信息表
     /// </summary>
     [Table("guest_info")]
-    public class User
+    public class Guest
     {
         /// <summary>
         /// 设置主键ID
